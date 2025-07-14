@@ -1,4 +1,4 @@
-module 10.1.20.149/dropping/proto-file
+module 10.1.20.130/dropping/proto-file
 
 go 1.24.2
 
