@@ -177,7 +177,7 @@ const file_file_proto_rawDesc = "" +
 	"\vFileService\x120\n" +
 	"\x10SaveProfileImage\x12\n" +
 	".fpb.Image\x1a\x0e.fpb.ImageName\"\x00\x123\n" +
-	"\x12RemoveProfileImage\x12\x0e.fpb.ImageName\x1a\v.fpb.Status\"\x00B)Z'10.1.20.149/dropping/proto-file/pkg/fpbb\x06proto3"
+	"\x12RemoveProfileImage\x12\x0e.fpb.ImageName\x1a\v.fpb.Status\"\x00B)Z'10.1.20.130/dropping/proto-file/pkg/fpbb\x06proto3"
 
 var (
 	file_file_proto_rawDescOnce sync.Once
