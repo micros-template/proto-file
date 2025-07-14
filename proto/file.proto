@@ -1,0 +1,21 @@
+syntax = "proto3";
+package fpb;
+
+option go_package="10.1.20.149/dropping/proto-file/pkg/fpb";
+
+service FileService{
+  rpc SaveProfileImage (Image) returns (ImageName){}
+  rpc RemoveProfileImage (ImageName) returns (Status){}
+}
+
+message Image{
+  bytes image = 1;
+  string ext = 2;
+}
+
+message ImageName{
+  string name = 1;
+}
+message Status{
+  bool status = 1;
+}
