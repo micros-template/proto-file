@@ -1,4 +1,4 @@
-module 10.1.20.130/dropping/proto-file
+module github.com/micros-template/proto-file
 
 go 1.24.2
 
